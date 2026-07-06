@@ -1,27 +1,65 @@
 body {
-font-family: Arial;
 margin: 0;
-background: #0f172a;
-color: white;
+font-family: Arial;
+background: #0b1220;
+color: #e5e7eb;
 }
 
-header {
+.hero {
 text-align: center;
-padding: 40px;
-background: #1e3a8a;
+padding: 60px 20px;
+background: linear-gradient(90deg, #1e3a8a, #0ea5e9);
+}
+
+.hero h1 {
+margin: 0;
+font-size: 40px;
+}
+
+.links a {
+color: white;
+text-decoration: none;
+font-weight: bold;
 }
 
 section {
-padding: 40px;
-max-width: 900px;
+max-width: 1000px;
 margin: auto;
+padding: 40px 20px;
 }
 
 h2 {
-color: #60a5fa;
+color: #38bdf8;
+margin-bottom: 20px;
 }
 
-img {
+.card {
+background: #111827;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 12px;
+}
+
+.card img {
+width: 100%;
 border-radius: 10px;
 margin-top: 10px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 10px;
+}
+
+.grid span, .metric {
+background: #1f2937;
+padding: 10px;
+border-radius: 8px;
+text-align: center;
+}
+
+.metric h3 {
+margin: 0;
+color: #60a5fa;
 }
